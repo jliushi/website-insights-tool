@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Insights Tool</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="head">
+      <img src="../icons/icon-48.png" width="40" height="40" alt="">
+      <div>
+        <h1 data-i18n="ext_short_name"></h1>
+        <p class="muted" data-i18n="options_subtitle"></p>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2 data-i18n="opt_google_title"></h2>
+      <p class="muted" data-i18n="opt_google_desc"></p>
+      <label for="google-key" data-i18n="opt_google_label"></label>
+      <div class="field">
+        <input id="google-key" type="password" autocomplete="off" spellcheck="false" data-i18n-placeholder="opt_optional">
+        <button type="button" class="btn ghost reveal" data-for="google-key" data-i18n="opt_show"></button>
+      </div>
+      <details>
+        <summary data-i18n="opt_how_to_get"></summary>
+        <ol>
+          <li data-i18n="opt_google_step1"></li>
+          <li data-i18n="opt_google_step2"></li>
+          <li data-i18n="opt_google_step3"></li>
+          <li data-i18n="opt_google_step4"></li>
+        </ol>
+        <p><a href="https://console.cloud.google.com/apis/library/pagespeedonline.googleapis.com" target="_blank" rel="noopener noreferrer">PageSpeed Insights API</a> ·
+           <a href="https://console.cloud.google.com/apis/library/chromeuxreport.googleapis.com" target="_blank" rel="noopener noreferrer">Chrome UX Report API</a> ·
+           <a href="https://console.cloud.google.com/apis/credentials" target="_blank" rel="noopener noreferrer">Credentials</a></p>
+      </details>
+      <div class="row">
+        <button id="test-google" type="button" class="btn" data-i18n="opt_test"></button>
+        <span id="google-status" class="status" role="status"></span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="opt_cf_title"></h2>
+      <p class="muted" data-i18n="opt_cf_desc"></p>
+      <label for="cf-token" data-i18n="opt_cf_label"></label>
+      <div class="field">
+        <input id="cf-token" type="password" autocomplete="off" spellcheck="false" data-i18n-placeholder="opt_optional">
+        <button type="button" class="btn ghost reveal" data-for="cf-token" data-i18n="opt_show"></button>
+      </div>
+      <details>
+        <summary data-i18n="opt_how_to_get"></summary>
+        <ol>
+          <li data-i18n="opt_cf_step1"></li>
+          <li data-i18n="opt_cf_step2"></li>
+          <li data-i18n="opt_cf_step3"></li>
+        </ol>
+        <p><a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener noreferrer">dash.cloudflare.com/profile/api-tokens</a></p>
+      </details>
+      <div class="row">
+        <button id="test-cf" type="button" class="btn" data-i18n="opt_test"></button>
+        <span id="cf-status" class="status" role="status"></span>
+      </div>
+    </section>
+
+    <div class="row actions">
+      <button id="save" type="button" class="btn primary" data-i18n="opt_save"></button>
+      <button id="clear-cache" type="button" class="btn" data-i18n="opt_clear_cache"></button>
+      <span id="save-status" class="status" role="status"></span>
+    </div>
+
+    <section class="card" id="privacy">
+      <h2 data-i18n="privacy_title"></h2>
+      <p data-i18n="privacy_intro"></p>
+      <table class="flows">
+        <thead><tr><th data-i18n="privacy_col_when"></th><th data-i18n="privacy_col_sent"></th><th data-i18n="privacy_col_to"></th></tr></thead>
+        <tbody>
+          <tr><td data-i18n="privacy_row_open"></td><td data-i18n="privacy_sent_domain"></td><td>tranco-list.eu</td></tr>
+          <tr><td data-i18n="privacy_row_open"></td><td data-i18n="privacy_sent_domain"></td><td data-i18n="privacy_to_rdap"></td></tr>
+          <tr><td data-i18n="privacy_row_open"></td><td data-i18n="privacy_sent_page"></td><td data-i18n="privacy_to_site"></td></tr>
+          <tr><td data-i18n="privacy_row_cf"></td><td data-i18n="privacy_sent_domain"></td><td>api.cloudflare.com</td></tr>
+          <tr><td data-i18n="privacy_row_google"></td><td data-i18n="privacy_sent_origin"></td><td>chromeuxreport.googleapis.com</td></tr>
+          <tr><td data-i18n="privacy_row_psi"></td><td data-i18n="privacy_sent_url"></td><td>googleapis.com (PageSpeed Insights)</td></tr>
+        </tbody>
+      </table>
+      <p data-i18n="privacy_local"></p>
+      <p data-i18n="privacy_none"></p>
+    </section>
+
+    <p class="muted small"><span data-i18n="options_version"></span> <span id="version"></span></p>
+  </main>
+  <script type="module" src="options.js"></script>
+</body>
+</html>

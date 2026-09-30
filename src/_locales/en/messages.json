@@ -1,0 +1,671 @@
+{
+  "extName": {
+    "message": "Website Insights Tool: Rank, Age, Tech & SEO"
+  },
+  "extDescription": {
+    "message": "See any site's popularity rank, domain age, tech stack, SEO checks and speed in one click. Free data, no account, no tracking."
+  },
+  "extActionTitle": {
+    "message": "Website insights for this page"
+  },
+  "ext_short_name": {
+    "message": "Website Insights Tool"
+  },
+  "refresh": {
+    "message": "Refresh data"
+  },
+  "settings": {
+    "message": "Settings"
+  },
+  "tab_overview": {
+    "message": "Overview"
+  },
+  "tab_tech": {
+    "message": "Tech"
+  },
+  "tab_seo": {
+    "message": "SEO"
+  },
+  "tab_speed": {
+    "message": "Speed"
+  },
+  "footer_sources": {
+    "message": "Tranco · RDAP · CrUX · PageSpeed"
+  },
+  "privacy": {
+    "message": "Privacy"
+  },
+  "secure_connection": {
+    "message": "Secure connection (HTTPS)"
+  },
+  "insecure_connection": {
+    "message": "Not secure (HTTP)"
+  },
+  "unsupported_page": {
+    "message": "Open a website (http or https) and click the icon again to see its insights."
+  },
+  "page_blocked": {
+    "message": "This page can't be inspected by extensions (for example browser or store pages). Rank and domain data above still apply."
+  },
+  "no_domain_data": {
+    "message": "Rank and domain data aren't available for IP addresses or local hosts."
+  },
+  "open_settings": {
+    "message": "Open settings"
+  },
+  "err_rate_limited": {
+    "message": "The data source is busy. Try again in a few seconds."
+  },
+  "err_network": {
+    "message": "Couldn't reach the data source. Check your connection."
+  },
+  "err_auth": {
+    "message": "The API key or token was rejected. Check it in settings."
+  },
+  "err_quota": {
+    "message": "The API quota is used up for now."
+  },
+  "err_generic": {
+    "message": "Something went wrong: $1"
+  },
+  "popularity": {
+    "message": "Popularity"
+  },
+  "tranco_rank": {
+    "message": "Global rank (Tranco top 1M)"
+  },
+  "tranco_unranked": {
+    "message": "Not in the top 1 million websites. Traffic is likely modest."
+  },
+  "rank_history": {
+    "message": "Rank over the last 30 days"
+  },
+  "trend_up": {
+    "message": "▲ $1 in $2 days"
+  },
+  "trend_down": {
+    "message": "▼ $1 in $2 days"
+  },
+  "trend_flat": {
+    "message": "Stable"
+  },
+  "tier_1k": {
+    "message": "Top 1,000 — very high traffic"
+  },
+  "tier_10k": {
+    "message": "Top 10,000 — high traffic"
+  },
+  "tier_100k": {
+    "message": "Top 100,000 — solid traffic"
+  },
+  "tier_1m": {
+    "message": "Top 1 million — moderate traffic"
+  },
+  "tier_unranked": {
+    "message": "Unranked"
+  },
+  "radar_hint": {
+    "message": "Add a free Cloudflare token to also see the Cloudflare Radar rank, site categories and top countries."
+  },
+  "radar_permission": {
+    "message": "Cloudflare Radar needs permission to contact api.cloudflare.com. Save the token again in settings to grant it."
+  },
+  "radar_bucket": {
+    "message": "Top $1"
+  },
+  "radar_unranked": {
+    "message": "Not ranked"
+  },
+  "radar_top_locations": {
+    "message": "Top countries"
+  },
+  "domain": {
+    "message": "Domain"
+  },
+  "domain_age": {
+    "message": "Domain age"
+  },
+  "age_days": {
+    "message": "$1 days"
+  },
+  "age_months": {
+    "message": "$1 months"
+  },
+  "age_years": {
+    "message": "$1 years"
+  },
+  "age_years_months": {
+    "message": "$1 yr $2 mo"
+  },
+  "registered": {
+    "message": "Registered"
+  },
+  "expires": {
+    "message": "Expires"
+  },
+  "expired": {
+    "message": "expired"
+  },
+  "expires_soon": {
+    "message": "in $1 days"
+  },
+  "updated": {
+    "message": "Last updated"
+  },
+  "registrar": {
+    "message": "Registrar"
+  },
+  "enabled": {
+    "message": "Enabled"
+  },
+  "disabled": {
+    "message": "Not enabled"
+  },
+  "nameservers": {
+    "message": "Name servers"
+  },
+  "rdap_unsupported": {
+    "message": "The .$1 registry doesn't publish public RDAP records, so the registration date isn't available."
+  },
+  "rdap_not_found": {
+    "message": "The registry has no record for this domain."
+  },
+  "stat_seo": {
+    "message": "SEO score"
+  },
+  "stat_tech": {
+    "message": "Technologies"
+  },
+  "stat_lcp": {
+    "message": "LCP (this visit)"
+  },
+  "stat_load": {
+    "message": "Load time"
+  },
+  "tech_detected": {
+    "message": "Detected technologies ($1)"
+  },
+  "tech_none": {
+    "message": "No known technologies detected on this page."
+  },
+  "tech_note": {
+    "message": "Detected from the page's code and response headers. Server-side tools that leave no trace in the browser can't be seen."
+  },
+  "server_info": {
+    "message": "Server"
+  },
+  "server": {
+    "message": "Server"
+  },
+  "protocol": {
+    "message": "Protocol"
+  },
+  "compression": {
+    "message": "Compression"
+  },
+  "cat_framework": {
+    "message": "JavaScript frameworks"
+  },
+  "cat_library": {
+    "message": "JavaScript libraries"
+  },
+  "cat_cms": {
+    "message": "CMS & site builders"
+  },
+  "cat_ecommerce": {
+    "message": "E-commerce"
+  },
+  "cat_ui": {
+    "message": "UI & fonts"
+  },
+  "cat_analytics": {
+    "message": "Analytics"
+  },
+  "cat_ads": {
+    "message": "Advertising"
+  },
+  "cat_marketing": {
+    "message": "Marketing"
+  },
+  "cat_chat": {
+    "message": "Live chat & support"
+  },
+  "cat_payments": {
+    "message": "Payments"
+  },
+  "cat_security": {
+    "message": "Security"
+  },
+  "cat_cdn": {
+    "message": "CDN"
+  },
+  "cat_hosting": {
+    "message": "Hosting"
+  },
+  "cat_server": {
+    "message": "Web servers"
+  },
+  "cat_backend": {
+    "message": "Back-end"
+  },
+  "seo_score": {
+    "message": "SEO score"
+  },
+  "seo_counts": {
+    "message": "$1 passed · $2 warnings · $3 failed"
+  },
+  "seo_page_note": {
+    "message": "Checks this page only, as your browser sees it."
+  },
+  "seo_snippet": {
+    "message": "Search snippet"
+  },
+  "seo_checks": {
+    "message": "Checks"
+  },
+  "seog_content": {
+    "message": "Content"
+  },
+  "seog_indexing": {
+    "message": "Indexing"
+  },
+  "seog_social": {
+    "message": "Social sharing"
+  },
+  "seog_technical": {
+    "message": "Technical"
+  },
+  "seog_security": {
+    "message": "Security headers"
+  },
+  "status_pass": {
+    "message": "Passed"
+  },
+  "status_warn": {
+    "message": "Warning"
+  },
+  "status_fail": {
+    "message": "Failed"
+  },
+  "status_info": {
+    "message": "Info"
+  },
+  "seo_title": {
+    "message": "Title"
+  },
+  "seo_description": {
+    "message": "Meta description"
+  },
+  "seo_h1": {
+    "message": "H1 heading"
+  },
+  "seo_subheadings": {
+    "message": "Subheadings"
+  },
+  "seo_alt": {
+    "message": "Image alt text"
+  },
+  "seo_words": {
+    "message": "Content length"
+  },
+  "seo_indexable": {
+    "message": "Indexable"
+  },
+  "seo_canonical": {
+    "message": "Canonical URL"
+  },
+  "seo_robots": {
+    "message": "robots.txt"
+  },
+  "seo_sitemap": {
+    "message": "XML sitemap"
+  },
+  "seo_lang": {
+    "message": "Language attribute"
+  },
+  "seo_hreflang": {
+    "message": "hreflang"
+  },
+  "seo_structured": {
+    "message": "Structured data"
+  },
+  "seo_og": {
+    "message": "Open Graph"
+  },
+  "seo_twitter": {
+    "message": "Twitter / X card"
+  },
+  "seo_https": {
+    "message": "HTTPS"
+  },
+  "seo_viewport": {
+    "message": "Mobile viewport"
+  },
+  "seo_favicon": {
+    "message": "Favicon"
+  },
+  "seo_charset": {
+    "message": "Character encoding"
+  },
+  "seo_hsts": {
+    "message": "Strict-Transport-Security"
+  },
+  "seo_csp": {
+    "message": "Content-Security-Policy"
+  },
+  "seo_frame": {
+    "message": "Clickjacking protection"
+  },
+  "seo_nosniff": {
+    "message": "X-Content-Type-Options"
+  },
+  "seo_referrer": {
+    "message": "Referrer-Policy"
+  },
+  "seo_headers_unavailable": {
+    "message": "Response headers"
+  },
+  "seod_chars": {
+    "message": "$1 characters"
+  },
+  "seod_title_warn": {
+    "message": "$1 characters — aim for 15–65"
+  },
+  "seod_desc_warn": {
+    "message": "$1 characters — aim for 50–170"
+  },
+  "seod_missing": {
+    "message": "Missing"
+  },
+  "seod_h1_one": {
+    "message": "Exactly one H1"
+  },
+  "seod_h1_many": {
+    "message": "$1 H1 headings — use one"
+  },
+  "seod_h2_count": {
+    "message": "$1 H2 headings"
+  },
+  "seod_h2_none": {
+    "message": "No H2 headings"
+  },
+  "seod_alt_ok": {
+    "message": "All $2 images have alt text"
+  },
+  "seod_alt_missing": {
+    "message": "$1 of $2 images have no alt text"
+  },
+  "seod_no_images": {
+    "message": "No images on this page"
+  },
+  "seod_words": {
+    "message": "About $1 words"
+  },
+  "seod_words_thin": {
+    "message": "About $1 words — thin content"
+  },
+  "seod_indexable": {
+    "message": "No noindex directive"
+  },
+  "seod_noindex": {
+    "message": "Blocked by a noindex robots meta tag"
+  },
+  "seod_value": {
+    "message": "$1"
+  },
+  "seod_canonical_other": {
+    "message": "Points to another host: $1"
+  },
+  "seod_found": {
+    "message": "Found"
+  },
+  "seod_not_found": {
+    "message": "Not found"
+  },
+  "seod_unchecked": {
+    "message": "Couldn't be checked"
+  },
+  "seod_robots_block": {
+    "message": "Blocks all crawlers (Disallow: /)"
+  },
+  "seod_hreflang": {
+    "message": "$1 language alternates"
+  },
+  "seod_structured_none": {
+    "message": "No JSON-LD or microdata"
+  },
+  "seod_og_all": {
+    "message": "Title, description and image set"
+  },
+  "seod_og_partial": {
+    "message": "$1 of 3 key tags set"
+  },
+  "seod_https": {
+    "message": "Served over HTTPS"
+  },
+  "seod_http": {
+    "message": "Served over plain HTTP"
+  },
+  "seod_header_set": {
+    "message": "Set"
+  },
+  "seod_header_missing": {
+    "message": "Not set"
+  },
+  "seod_hsts_http": {
+    "message": "Not applicable over HTTP"
+  },
+  "seod_headers_unavailable": {
+    "message": "The site didn't return headers to the check, so security headers weren't evaluated."
+  },
+  "speed_local": {
+    "message": "This visit"
+  },
+  "speed_local_src": {
+    "message": "measured in this tab"
+  },
+  "speed_local_note": {
+    "message": "Measured from this tab's page load on your device and network. Reload the page for fresh numbers."
+  },
+  "cls_unsupported": {
+    "message": "CLS isn't reported by this browser."
+  },
+  "m_dcl": {
+    "message": "DOM ready"
+  },
+  "m_load": {
+    "message": "Full load"
+  },
+  "m_requests": {
+    "message": "Requests"
+  },
+  "m_transfer": {
+    "message": "Transferred"
+  },
+  "m_dom": {
+    "message": "DOM elements"
+  },
+  "speed_crux": {
+    "message": "Real users (28 days)"
+  },
+  "crux_hint": {
+    "message": "Add a free Google API key to see how real Chrome users experience this site (Core Web Vitals)."
+  },
+  "crux_no_data": {
+    "message": "Not enough real-user traffic for Google to publish data for this site."
+  },
+  "crux_note": {
+    "message": "75th percentile of Chrome users on all devices over the last 28 days."
+  },
+  "cwv_passed": {
+    "message": "Core Web Vitals: passed"
+  },
+  "cwv_failed": {
+    "message": "Core Web Vitals: not passed"
+  },
+  "speed_psi": {
+    "message": "Lab test"
+  },
+  "psi_mobile": {
+    "message": "Mobile"
+  },
+  "psi_desktop": {
+    "message": "Desktop"
+  },
+  "psi_run": {
+    "message": "Run test"
+  },
+  "psi_running": {
+    "message": "Testing… (up to 1 min)"
+  },
+  "psi_score": {
+    "message": "Performance score · $1"
+  },
+  "psi_full_report": {
+    "message": "Full report"
+  },
+  "psi_privacy": {
+    "message": "Sends this page's address (without query string) to Google PageSpeed Insights."
+  },
+  "psi_no_key": {
+    "message": "Without an API key, Google's shared free quota is often used up."
+  },
+  "psi_need_key": {
+    "message": "Google's shared free quota is used up. Add your own free API key to run tests."
+  },
+  "options_subtitle": {
+    "message": "Optional API keys and privacy information"
+  },
+  "options_version": {
+    "message": "Version"
+  },
+  "opt_optional": {
+    "message": "Optional"
+  },
+  "opt_show": {
+    "message": "Show"
+  },
+  "opt_hide": {
+    "message": "Hide"
+  },
+  "opt_how_to_get": {
+    "message": "How to get one for free"
+  },
+  "opt_test": {
+    "message": "Test"
+  },
+  "opt_testing": {
+    "message": "Testing…"
+  },
+  "opt_test_ok": {
+    "message": "Works"
+  },
+  "opt_enter_first": {
+    "message": "Enter a value first."
+  },
+  "opt_save": {
+    "message": "Save"
+  },
+  "opt_saved": {
+    "message": "Saved."
+  },
+  "opt_clear_cache": {
+    "message": "Clear cached results"
+  },
+  "opt_cache_cleared": {
+    "message": "Cache cleared."
+  },
+  "opt_google_title": {
+    "message": "Google API key (speed data)"
+  },
+  "opt_google_desc": {
+    "message": "Unlocks real-user Core Web Vitals from the Chrome UX Report and reliable PageSpeed Insights lab tests. Without it, the Speed tab still shows metrics measured in your own tab."
+  },
+  "opt_google_label": {
+    "message": "API key"
+  },
+  "opt_google_step1": {
+    "message": "Open Google Cloud Console and create (or pick) a project."
+  },
+  "opt_google_step2": {
+    "message": "Enable “PageSpeed Insights API” and “Chrome UX Report API” (links below)."
+  },
+  "opt_google_step3": {
+    "message": "Go to Credentials → Create credentials → API key."
+  },
+  "opt_google_step4": {
+    "message": "Paste the key here and click Save. Both APIs are free."
+  },
+  "opt_cf_title": {
+    "message": "Cloudflare API token (Radar rank)"
+  },
+  "opt_cf_desc": {
+    "message": "Adds the Cloudflare Radar popularity rank, site categories and top countries. Saving asks for permission to contact api.cloudflare.com only."
+  },
+  "opt_cf_label": {
+    "message": "API token"
+  },
+  "opt_cf_step1": {
+    "message": "Sign in to Cloudflare (a free account is enough) and open My Profile → API Tokens."
+  },
+  "opt_cf_step2": {
+    "message": "Create a Custom Token with the permission Account → Radar → Read."
+  },
+  "opt_cf_step3": {
+    "message": "Paste the token here and click Save, then allow the permission prompt."
+  },
+  "opt_cf_permission_denied": {
+    "message": "Permission for api.cloudflare.com wasn't granted, so the token wasn't saved."
+  },
+  "privacy_title": {
+    "message": "Privacy"
+  },
+  "privacy_intro": {
+    "message": "Website Insights Tool has no servers, no accounts and no analytics. It only works when you click its icon, and it sends requests directly from your browser to public data sources:"
+  },
+  "privacy_col_when": {
+    "message": "When"
+  },
+  "privacy_col_sent": {
+    "message": "What is sent"
+  },
+  "privacy_col_to": {
+    "message": "To"
+  },
+  "privacy_row_open": {
+    "message": "You open the popup"
+  },
+  "privacy_row_cf": {
+    "message": "You open the popup, only if you added a Cloudflare token"
+  },
+  "privacy_row_google": {
+    "message": "You open the popup, only if you added a Google API key"
+  },
+  "privacy_row_psi": {
+    "message": "You click “Run test”"
+  },
+  "privacy_sent_domain": {
+    "message": "The site's domain name (e.g. example.com)"
+  },
+  "privacy_sent_origin": {
+    "message": "The site's origin (e.g. https://www.example.com)"
+  },
+  "privacy_sent_url": {
+    "message": "The page address without query string or fragment"
+  },
+  "privacy_sent_page": {
+    "message": "Requests for the page headers, /robots.txt and /sitemap.xml, without cookies"
+  },
+  "privacy_to_rdap": {
+    "message": "The domain's registry RDAP server (found via data.iana.org)"
+  },
+  "privacy_to_site": {
+    "message": "The website you are viewing"
+  },
+  "privacy_local": {
+    "message": "API keys and cached results (kept up to 7 days) are stored only in your browser's local extension storage. Nothing is synced or shared."
+  },
+  "privacy_none": {
+    "message": "The extension does not collect, sell or transmit your browsing history, personal data or page contents to the developer or anyone else."
+  }
+}

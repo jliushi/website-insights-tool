@@ -1,0 +1,25 @@
+{
+  "name": "website-insights-tool",
+  "version": "1.0.0",
+  "description": "Browser extension: website rank, domain age, tech stack, SEO and speed in one click.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "python scripts/build.py --test",
+    "lint": "web-ext lint --source-dir dist/firefox",
+    "test": "node test/e2e.mjs && node test/e2e-extra.mjs && node test/e2e-firefox.mjs",
+    "submit:amo": "node scripts/submit-amo.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer": "^25.12.0",
+    "web-ext": "^10.7.0"
+  },
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jliushi/website-insights-tool"
+  }
+}

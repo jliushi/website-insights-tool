@@ -1,0 +1,671 @@
+{
+  "extName": {
+    "message": "网站洞察工具：排名、域名年龄、技术栈与SEO"
+  },
+  "extDescription": {
+    "message": "一键查看任意网站的流行度排名、域名年龄、技术栈、SEO 检查和速度。免费数据源，无需账号，不追踪。"
+  },
+  "extActionTitle": {
+    "message": "查看此网站的洞察数据"
+  },
+  "ext_short_name": {
+    "message": "网站洞察工具"
+  },
+  "refresh": {
+    "message": "刷新数据"
+  },
+  "settings": {
+    "message": "设置"
+  },
+  "tab_overview": {
+    "message": "概览"
+  },
+  "tab_tech": {
+    "message": "技术栈"
+  },
+  "tab_seo": {
+    "message": "SEO"
+  },
+  "tab_speed": {
+    "message": "速度"
+  },
+  "footer_sources": {
+    "message": "Tranco · RDAP · CrUX · PageSpeed"
+  },
+  "privacy": {
+    "message": "隐私"
+  },
+  "secure_connection": {
+    "message": "安全连接（HTTPS）"
+  },
+  "insecure_connection": {
+    "message": "不安全（HTTP）"
+  },
+  "unsupported_page": {
+    "message": "请打开一个网站（http 或 https），然后再次点击图标查看洞察数据。"
+  },
+  "page_blocked": {
+    "message": "此页面不允许扩展程序检查（例如浏览器内置页面或应用商店页面）。概览中的排名和域名数据仍然有效。"
+  },
+  "no_domain_data": {
+    "message": "IP 地址或本地主机没有排名和域名数据。"
+  },
+  "open_settings": {
+    "message": "打开设置"
+  },
+  "err_rate_limited": {
+    "message": "数据源繁忙，请几秒后重试。"
+  },
+  "err_network": {
+    "message": "无法连接数据源，请检查网络连接。"
+  },
+  "err_auth": {
+    "message": "API 密钥或令牌被拒绝，请在设置中检查。"
+  },
+  "err_quota": {
+    "message": "API 配额暂时已用完。"
+  },
+  "err_generic": {
+    "message": "出现错误：$1"
+  },
+  "popularity": {
+    "message": "流行度"
+  },
+  "tranco_rank": {
+    "message": "全球排名（Tranco 前 100 万）"
+  },
+  "tranco_unranked": {
+    "message": "未进入全球前 100 万网站，流量可能较小。"
+  },
+  "rank_history": {
+    "message": "最近 30 天排名走势"
+  },
+  "trend_up": {
+    "message": "▲ $2 天上升 $1 位"
+  },
+  "trend_down": {
+    "message": "▼ $2 天下降 $1 位"
+  },
+  "trend_flat": {
+    "message": "保持稳定"
+  },
+  "tier_1k": {
+    "message": "前 1,000 —— 流量极高"
+  },
+  "tier_10k": {
+    "message": "前 10,000 —— 流量很高"
+  },
+  "tier_100k": {
+    "message": "前 100,000 —— 流量可观"
+  },
+  "tier_1m": {
+    "message": "前 100 万 —— 流量中等"
+  },
+  "tier_unranked": {
+    "message": "未上榜"
+  },
+  "radar_hint": {
+    "message": "添加免费的 Cloudflare 令牌，即可同时查看 Cloudflare Radar 排名、网站分类和主要访问国家。"
+  },
+  "radar_permission": {
+    "message": "Cloudflare Radar 需要访问 api.cloudflare.com 的权限。请在设置中重新保存令牌以授权。"
+  },
+  "radar_bucket": {
+    "message": "前 $1"
+  },
+  "radar_unranked": {
+    "message": "未上榜"
+  },
+  "radar_top_locations": {
+    "message": "主要国家"
+  },
+  "domain": {
+    "message": "域名"
+  },
+  "domain_age": {
+    "message": "域名年龄"
+  },
+  "age_days": {
+    "message": "$1 天"
+  },
+  "age_months": {
+    "message": "$1 个月"
+  },
+  "age_years": {
+    "message": "$1 年"
+  },
+  "age_years_months": {
+    "message": "$1 年 $2 个月"
+  },
+  "registered": {
+    "message": "注册时间"
+  },
+  "expires": {
+    "message": "到期时间"
+  },
+  "expired": {
+    "message": "已过期"
+  },
+  "expires_soon": {
+    "message": "$1 天后"
+  },
+  "updated": {
+    "message": "最近更新"
+  },
+  "registrar": {
+    "message": "注册商"
+  },
+  "enabled": {
+    "message": "已启用"
+  },
+  "disabled": {
+    "message": "未启用"
+  },
+  "nameservers": {
+    "message": "域名服务器"
+  },
+  "rdap_unsupported": {
+    "message": ".$1 注册局未提供公开的 RDAP 记录，因此无法获取注册日期。"
+  },
+  "rdap_not_found": {
+    "message": "注册局中没有该域名的记录。"
+  },
+  "stat_seo": {
+    "message": "SEO 得分"
+  },
+  "stat_tech": {
+    "message": "技术"
+  },
+  "stat_lcp": {
+    "message": "LCP（本次访问）"
+  },
+  "stat_load": {
+    "message": "加载时间"
+  },
+  "tech_detected": {
+    "message": "检测到的技术（$1）"
+  },
+  "tech_none": {
+    "message": "此页面未检测到已知技术。"
+  },
+  "tech_note": {
+    "message": "根据页面代码和响应头检测。未在浏览器中留下痕迹的服务端技术无法识别。"
+  },
+  "server_info": {
+    "message": "服务器"
+  },
+  "server": {
+    "message": "服务器"
+  },
+  "protocol": {
+    "message": "协议"
+  },
+  "compression": {
+    "message": "压缩"
+  },
+  "cat_framework": {
+    "message": "JavaScript 框架"
+  },
+  "cat_library": {
+    "message": "JavaScript 库"
+  },
+  "cat_cms": {
+    "message": "CMS 与建站工具"
+  },
+  "cat_ecommerce": {
+    "message": "电商平台"
+  },
+  "cat_ui": {
+    "message": "UI 与字体"
+  },
+  "cat_analytics": {
+    "message": "统计分析"
+  },
+  "cat_ads": {
+    "message": "广告"
+  },
+  "cat_marketing": {
+    "message": "营销"
+  },
+  "cat_chat": {
+    "message": "在线客服"
+  },
+  "cat_payments": {
+    "message": "支付"
+  },
+  "cat_security": {
+    "message": "安全"
+  },
+  "cat_cdn": {
+    "message": "CDN"
+  },
+  "cat_hosting": {
+    "message": "托管"
+  },
+  "cat_server": {
+    "message": "Web 服务器"
+  },
+  "cat_backend": {
+    "message": "后端"
+  },
+  "seo_score": {
+    "message": "SEO 得分"
+  },
+  "seo_counts": {
+    "message": "$1 项通过 · $2 项警告 · $3 项未通过"
+  },
+  "seo_page_note": {
+    "message": "仅检查当前页面（以浏览器所见为准）。"
+  },
+  "seo_snippet": {
+    "message": "搜索结果摘要"
+  },
+  "seo_checks": {
+    "message": "检查项"
+  },
+  "seog_content": {
+    "message": "内容"
+  },
+  "seog_indexing": {
+    "message": "索引"
+  },
+  "seog_social": {
+    "message": "社交分享"
+  },
+  "seog_technical": {
+    "message": "技术"
+  },
+  "seog_security": {
+    "message": "安全响应头"
+  },
+  "status_pass": {
+    "message": "通过"
+  },
+  "status_warn": {
+    "message": "警告"
+  },
+  "status_fail": {
+    "message": "未通过"
+  },
+  "status_info": {
+    "message": "信息"
+  },
+  "seo_title": {
+    "message": "标题"
+  },
+  "seo_description": {
+    "message": "Meta 描述"
+  },
+  "seo_h1": {
+    "message": "H1 标题"
+  },
+  "seo_subheadings": {
+    "message": "副标题"
+  },
+  "seo_alt": {
+    "message": "图片 alt 文本"
+  },
+  "seo_words": {
+    "message": "内容长度"
+  },
+  "seo_indexable": {
+    "message": "可被索引"
+  },
+  "seo_canonical": {
+    "message": "规范网址（canonical）"
+  },
+  "seo_robots": {
+    "message": "robots.txt"
+  },
+  "seo_sitemap": {
+    "message": "XML 站点地图"
+  },
+  "seo_lang": {
+    "message": "语言属性"
+  },
+  "seo_hreflang": {
+    "message": "hreflang"
+  },
+  "seo_structured": {
+    "message": "结构化数据"
+  },
+  "seo_og": {
+    "message": "Open Graph"
+  },
+  "seo_twitter": {
+    "message": "Twitter / X 卡片"
+  },
+  "seo_https": {
+    "message": "HTTPS"
+  },
+  "seo_viewport": {
+    "message": "移动端 viewport"
+  },
+  "seo_favicon": {
+    "message": "网站图标"
+  },
+  "seo_charset": {
+    "message": "字符编码"
+  },
+  "seo_hsts": {
+    "message": "Strict-Transport-Security"
+  },
+  "seo_csp": {
+    "message": "Content-Security-Policy"
+  },
+  "seo_frame": {
+    "message": "点击劫持防护"
+  },
+  "seo_nosniff": {
+    "message": "X-Content-Type-Options"
+  },
+  "seo_referrer": {
+    "message": "Referrer-Policy"
+  },
+  "seo_headers_unavailable": {
+    "message": "响应头"
+  },
+  "seod_chars": {
+    "message": "$1 个字符"
+  },
+  "seod_title_warn": {
+    "message": "$1 个字符 —— 建议 15–65"
+  },
+  "seod_desc_warn": {
+    "message": "$1 个字符 —— 建议 50–170"
+  },
+  "seod_missing": {
+    "message": "缺失"
+  },
+  "seod_h1_one": {
+    "message": "恰好一个 H1"
+  },
+  "seod_h1_many": {
+    "message": "有 $1 个 H1 —— 建议只用一个"
+  },
+  "seod_h2_count": {
+    "message": "$1 个 H2 标题"
+  },
+  "seod_h2_none": {
+    "message": "没有 H2 标题"
+  },
+  "seod_alt_ok": {
+    "message": "全部 $2 张图片都有 alt 文本"
+  },
+  "seod_alt_missing": {
+    "message": "$2 张图片中有 $1 张缺少 alt 文本"
+  },
+  "seod_no_images": {
+    "message": "此页面没有图片"
+  },
+  "seod_words": {
+    "message": "约 $1 字"
+  },
+  "seod_words_thin": {
+    "message": "约 $1 字 —— 内容偏少"
+  },
+  "seod_indexable": {
+    "message": "没有 noindex 指令"
+  },
+  "seod_noindex": {
+    "message": "被 robots meta 标签的 noindex 阻止"
+  },
+  "seod_value": {
+    "message": "$1"
+  },
+  "seod_canonical_other": {
+    "message": "指向其他主机：$1"
+  },
+  "seod_found": {
+    "message": "已找到"
+  },
+  "seod_not_found": {
+    "message": "未找到"
+  },
+  "seod_unchecked": {
+    "message": "无法检查"
+  },
+  "seod_robots_block": {
+    "message": "阻止所有爬虫（Disallow: /）"
+  },
+  "seod_hreflang": {
+    "message": "$1 个语言版本"
+  },
+  "seod_structured_none": {
+    "message": "没有 JSON-LD 或微数据"
+  },
+  "seod_og_all": {
+    "message": "已设置标题、描述和图片"
+  },
+  "seod_og_partial": {
+    "message": "3 个关键标签中已设置 $1 个"
+  },
+  "seod_https": {
+    "message": "通过 HTTPS 提供"
+  },
+  "seod_http": {
+    "message": "通过不加密的 HTTP 提供"
+  },
+  "seod_header_set": {
+    "message": "已设置"
+  },
+  "seod_header_missing": {
+    "message": "未设置"
+  },
+  "seod_hsts_http": {
+    "message": "HTTP 下不适用"
+  },
+  "seod_headers_unavailable": {
+    "message": "网站未向检查请求返回响应头，因此未评估安全响应头。"
+  },
+  "speed_local": {
+    "message": "本次访问"
+  },
+  "speed_local_src": {
+    "message": "在此标签页中测得"
+  },
+  "speed_local_note": {
+    "message": "基于此标签页在你的设备和网络上的加载过程测得。刷新页面可获取最新数据。"
+  },
+  "cls_unsupported": {
+    "message": "此浏览器不提供 CLS 数据。"
+  },
+  "m_dcl": {
+    "message": "DOM 就绪"
+  },
+  "m_load": {
+    "message": "完全加载"
+  },
+  "m_requests": {
+    "message": "请求数"
+  },
+  "m_transfer": {
+    "message": "传输大小"
+  },
+  "m_dom": {
+    "message": "DOM 元素"
+  },
+  "speed_crux": {
+    "message": "真实用户（28 天）"
+  },
+  "crux_hint": {
+    "message": "添加免费的 Google API 密钥，即可查看真实 Chrome 用户访问此网站的体验（Core Web Vitals）。"
+  },
+  "crux_no_data": {
+    "message": "该网站的真实用户流量不足，Google 未公开其数据。"
+  },
+  "crux_note": {
+    "message": "最近 28 天内所有设备上 Chrome 用户的第 75 百分位数据。"
+  },
+  "cwv_passed": {
+    "message": "Core Web Vitals：通过"
+  },
+  "cwv_failed": {
+    "message": "Core Web Vitals：未通过"
+  },
+  "speed_psi": {
+    "message": "实验室测试"
+  },
+  "psi_mobile": {
+    "message": "移动端"
+  },
+  "psi_desktop": {
+    "message": "桌面端"
+  },
+  "psi_run": {
+    "message": "开始测试"
+  },
+  "psi_running": {
+    "message": "测试中……（最多 1 分钟）"
+  },
+  "psi_score": {
+    "message": "性能得分 · $1"
+  },
+  "psi_full_report": {
+    "message": "完整报告"
+  },
+  "psi_privacy": {
+    "message": "会将此页面地址（不含查询参数）发送给 Google PageSpeed Insights。"
+  },
+  "psi_no_key": {
+    "message": "未设置 API 密钥时，Google 的共享免费配额经常被用完。"
+  },
+  "psi_need_key": {
+    "message": "Google 的共享免费配额已用完。添加你自己的免费 API 密钥即可运行测试。"
+  },
+  "options_subtitle": {
+    "message": "可选 API 密钥与隐私说明"
+  },
+  "options_version": {
+    "message": "版本"
+  },
+  "opt_optional": {
+    "message": "可选"
+  },
+  "opt_show": {
+    "message": "显示"
+  },
+  "opt_hide": {
+    "message": "隐藏"
+  },
+  "opt_how_to_get": {
+    "message": "如何免费获取"
+  },
+  "opt_test": {
+    "message": "测试"
+  },
+  "opt_testing": {
+    "message": "测试中……"
+  },
+  "opt_test_ok": {
+    "message": "可用"
+  },
+  "opt_enter_first": {
+    "message": "请先输入内容。"
+  },
+  "opt_save": {
+    "message": "保存"
+  },
+  "opt_saved": {
+    "message": "已保存。"
+  },
+  "opt_clear_cache": {
+    "message": "清除缓存结果"
+  },
+  "opt_cache_cleared": {
+    "message": "缓存已清除。"
+  },
+  "opt_google_title": {
+    "message": "Google API 密钥（速度数据）"
+  },
+  "opt_google_desc": {
+    "message": "可解锁 Chrome UX Report 的真实用户 Core Web Vitals 数据和稳定的 PageSpeed Insights 实验室测试。不设置时，“速度”页仍会显示在你的标签页中测得的数据。"
+  },
+  "opt_google_label": {
+    "message": "API 密钥"
+  },
+  "opt_google_step1": {
+    "message": "打开 Google Cloud Console，创建（或选择）一个项目。"
+  },
+  "opt_google_step2": {
+    "message": "启用“PageSpeed Insights API”和“Chrome UX Report API”（链接见下方）。"
+  },
+  "opt_google_step3": {
+    "message": "进入“凭据” → “创建凭据” → “API 密钥”。"
+  },
+  "opt_google_step4": {
+    "message": "将密钥粘贴到此处并点击“保存”。这两个 API 均免费。"
+  },
+  "opt_cf_title": {
+    "message": "Cloudflare API 令牌（Radar 排名）"
+  },
+  "opt_cf_desc": {
+    "message": "增加 Cloudflare Radar 流行度排名、网站分类和主要国家。保存时会请求仅访问 api.cloudflare.com 的权限。"
+  },
+  "opt_cf_label": {
+    "message": "API 令牌"
+  },
+  "opt_cf_step1": {
+    "message": "登录 Cloudflare（免费账号即可），打开“我的个人资料” → “API 令牌”。"
+  },
+  "opt_cf_step2": {
+    "message": "创建自定义令牌，权限选择“账户 → Radar → 读取”。"
+  },
+  "opt_cf_step3": {
+    "message": "将令牌粘贴到此处并点击“保存”，然后允许权限请求。"
+  },
+  "opt_cf_permission_denied": {
+    "message": "未授予 api.cloudflare.com 访问权限，令牌未保存。"
+  },
+  "privacy_title": {
+    "message": "隐私说明"
+  },
+  "privacy_intro": {
+    "message": "网站洞察工具没有服务器、没有账号、没有统计分析。它只在你点击图标时工作，并直接从你的浏览器向公开数据源发送请求："
+  },
+  "privacy_col_when": {
+    "message": "时机"
+  },
+  "privacy_col_sent": {
+    "message": "发送内容"
+  },
+  "privacy_col_to": {
+    "message": "接收方"
+  },
+  "privacy_row_open": {
+    "message": "你打开弹窗时"
+  },
+  "privacy_row_cf": {
+    "message": "你打开弹窗时（仅在你添加了 Cloudflare 令牌后）"
+  },
+  "privacy_row_google": {
+    "message": "你打开弹窗时（仅在你添加了 Google API 密钥后）"
+  },
+  "privacy_row_psi": {
+    "message": "你点击“开始测试”时"
+  },
+  "privacy_sent_domain": {
+    "message": "网站域名（如 example.com）"
+  },
+  "privacy_sent_origin": {
+    "message": "网站源地址（如 https://www.example.com）"
+  },
+  "privacy_sent_url": {
+    "message": "页面地址（不含查询参数和片段）"
+  },
+  "privacy_sent_page": {
+    "message": "请求页面响应头、/robots.txt 和 /sitemap.xml（不带 Cookie）"
+  },
+  "privacy_to_rdap": {
+    "message": "该域名注册局的 RDAP 服务器（通过 data.iana.org 查找）"
+  },
+  "privacy_to_site": {
+    "message": "你正在查看的网站"
+  },
+  "privacy_local": {
+    "message": "API 密钥和缓存结果（最多保留 7 天）仅保存在浏览器本地的扩展存储中，不会同步或共享。"
+  },
+  "privacy_none": {
+    "message": "本扩展不会收集、出售或向开发者及任何其他方传输你的浏览记录、个人数据或页面内容。"
+  }
+}
