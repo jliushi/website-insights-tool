@@ -3,3 +3,4 @@ dist/*-test/
 test/out/
 scripts/public_suffix_list.dat
 dist/
+SUBMISSION-REPORT.md
