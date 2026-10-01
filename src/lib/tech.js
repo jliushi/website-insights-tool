@@ -56,7 +56,7 @@ export const SIGNATURES = [
   // E-commerce
   { name: 'Shopify', cat: 'ecommerce', globals: ['Shopify'], script: 'cdn\\.shopify\\.com', header: { 'x-shopid': '.', 'x-shopify-stage': '.' } },
   { name: 'WooCommerce', cat: 'ecommerce', globals: ['woocommerce_params', 'wc_add_to_cart_params'], dom: '.woocommerce, body.woocommerce-page' },
-  { name: 'Magento', cat: 'ecommerce', globals: ['Mage'], script: '/static/version\\d+/frontend/|mage/' },
+  { name: 'Magento', cat: 'ecommerce', globals: ['Mage'], script: '/static/version\\d+/frontend/|/mage/' },
   { name: 'BigCommerce', cat: 'ecommerce', globals: ['BCData'], script: 'bigcommerce\\.com' },
   { name: 'PrestaShop', cat: 'ecommerce', globals: ['prestashop'], meta: 'PrestaShop' },
   { name: 'Shopline', cat: 'ecommerce', globals: ['Shopline'] },
